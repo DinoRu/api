@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "webapp"
+version = "0.1.0"
+description = "Web app is an Api build with fastapi"
+authors = ["Moustapha Diarra <diarra.msa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.112.1"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
